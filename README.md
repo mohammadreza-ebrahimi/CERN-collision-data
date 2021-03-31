@@ -14,7 +14,7 @@ We examined different model as follows
 
 Then, after training model by using them, we examined them
 for data which prepared by **Polynomial Feature**.  
-At the end, we would train several perfect models with low _cost function_ where the best **RMSE*** would be gotten as **1.6** for the test set. 
+At the end, we would train several perfect models with low _cost function_ where the best **RMSE** would be gotten as **1.6** for the test set. 
 
 Still this model can gives us the better **MSE** or **RMSE**
 by tuning **Hyperparameter**.  
