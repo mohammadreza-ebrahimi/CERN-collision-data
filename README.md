@@ -19,4 +19,27 @@ At the end, we would train several perfect models with low _cost function_ where
 
 Still this model can gives us the better **MSE** or **RMSE**
 by tuning **Hyperparameter**.  
-If you have any question or suggestion please [contact](mailto:m.reza.ebrahimi1995@gmail.com) me. 
+If you have any question or suggestion please [contact](mailto:m.reza.ebrahimi1995@gmail.com) me.   
+
+### Summery of Results 
+
+**Prediction of Mass**  
+Mass of electron (min=2.00 - max=109.99)  
+Cross Validation of Training dataset
+
+Model|RMSE
+--------|------
+Linear Regression | 19.29
+LASSO (alpha=0.01)| 19.50
+Decision Tree | 12.07
+Random Forest|6.51
+||
+| |  ***Polynomial Features (degree=2)***
+||
+Linear Regression |4.57
+Decision Tree|2.69
+Random Forest| 1.68
+||
+| | ***Test dataset***
+||
+Random Forest | 1.60
