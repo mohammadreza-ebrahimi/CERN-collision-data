@@ -25,7 +25,8 @@ If you have any question or suggestion please [contact](mailto:m.reza.ebrahimi19
 
 **Prediction of Mass**  
 Mass of electron (min=2.00 - max=109.99)  
-Cross Validation of Training dataset
+Cross Validation of Training dataset  
+Shape of data : (100000, 19)
 
 Model|RMSE
 --------|------
